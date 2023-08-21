@@ -1,0 +1,26 @@
+.thumbnail {
+  height: 100px;
+  width: 150px;
+  border-radius: 8px;
+  outline: 1px solid #fff;
+  transition: 1s;
+}
+.thumbnail:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    outline: 1px solid #fff;
+    margin: 5px;
+    transition: 1s;
+  }
+  .thumbnail:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+}

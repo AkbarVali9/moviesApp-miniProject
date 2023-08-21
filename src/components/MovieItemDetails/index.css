@@ -1,0 +1,133 @@
+.movie-detail-bg-container {
+  background-color: #131313;
+}
+.detail-title {
+  position: absolute;
+  left: 11.39%;
+  right: 73.4%;
+  top: 13.55%;
+  bottom: 81.79%;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+  color: #ffffff;
+}
+.time-year-container {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .time-year-container {
+    font-size: 20px;
+  }
+}
+.year-time {
+  margin-right: 20px;
+}
+.censor-criteria {
+  margin-right: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.movie-detail-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.movie-content-details {
+  width: 33%;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-details {
+    width: 25%;
+    padding: 30px;
+  }
+}
+.movie-content-title {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 16px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.movie-content-description-container {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0px;
+  font-family: 'Roboto';
+  line-height: 24px;
+}
+.movie-content-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .movie-content-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.movie-content-text {
+  color: #ffffff;
+  margin-left: 0px;
+}
+.more-movies-title {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-left: 10%;
+  color: #131313;
+  padding-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .more-movies-title {
+    font-size: 32px;
+    line-height: 42px;
+    padding-top: 30px;
+    color: #131313;
+  }
+}
+.more-movies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.movie-detail-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #131313;
+}
+
+.more-like-this-container {
+  background-color: #ffffff;
+}

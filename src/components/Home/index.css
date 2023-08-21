@@ -1,0 +1,158 @@
+.home-bg-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.bg-image {
+  min-height: 45vh;
+  background-size: cover;
+}
+.movie-heading-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 60vh;
+}
+@media screen and (min-width: 768px) {
+  .movie-heading-container {
+    padding-right: 30%;
+  }
+}
+.poster-title {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .poster-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+.poster-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .poster-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.play-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 8px;
+  width: 76px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.play-button:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  background: linear-gradient(orange, white, green);
+  color: blue;
+}
+@media screen and (min-width: 768px) {
+  .play-button {
+    width: 74px;
+    height: 40px;
+    margin: 10px 10px 10px 0;
+  }
+}
+.section-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 10%;
+  color: #ffffff;
+  margin-top: 3%;
+}
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+.video-slider-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.home-loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+}
+.poster-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 466px;
+}
+.poster-failure-image {
+  width: 22px;
+  height: 19px;
+}
+@media screen and (min-width: 768px) {
+  .poster-failure-image {
+    width: 44px;
+    height: 38px;
+  }
+}
+.failure-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .failure-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.failure-retry-button {
+  width: 77px;
+  height: 28px;
+  font-size: 12px;
+  color: #171f46;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .failure-retry-button {
+    width: 94px;
+    height: 32px;
+    font-size: 14px;
+  }
+}

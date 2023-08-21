@@ -1,0 +1,82 @@
+.account-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+}
+
+.account-container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  line-height: 1;
+  height: 65vh;
+  margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+  .account-container-2 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  }
+}
+
+.mail {
+  color: #1e293b;
+}
+
+.password {
+  color: #64748b;
+}
+
+.logout-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #e50914;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+  transition: 1s;
+}
+.logout-button:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  background: linear-gradient(orange, white, green);
+  color: blue;
+}
+.account-element {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid grey;
+}
+.header-element {
+  align-self: flex-start;
+  margin-right: 20px;
+  color: #94a3b8;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
+}
+.ultra-hd {
+  height: 25px;
+  width: 75px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 12px;
+  font-family: 'Roboto';
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

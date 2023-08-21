@@ -1,0 +1,154 @@
+.navbar {
+  height: 10vh;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  opacity: 0.9;
+}
+.navbar-logo-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-link-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header-link-container {
+    display: block;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+.route-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-link {
+  margin-left: 54px;
+}
+.search-and-avatar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-container {
+  height: 22px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    height: 32px;
+    margin-right: 32px;
+  }
+}
+.search-input {
+  height: 100%;
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: 1px solid #ffffff;
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    width: 200px;
+    background-color: transparent;
+    outline: 1x solid #fff;
+  }
+}
+.search-button {
+  height: 100%;
+  width: 32px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .search-button {
+    width: 44px;
+  }
+}
+.avatar-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .avatar-image {
+    display: block;
+    height: 48px;
+    width: 48px;
+  }
+}
+.menu-button {
+  display: block;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+.menu-link-container {
+  display: block;
+  list-style-type: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding-top: 14px;
+  padding-bottom: 26px;
+  background-color: transparent;
+  width: 100vw;
+  position: absolute;
+}
+@media screen and (min-width: 768px) {
+  .menu-link-container {
+    display: none;
+  }
+}
+.menu-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 26px;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 22px;
+}
+.selected {
+  font-weight: 600;
+  color: royalblue;
+}
+.website-logo {
+  height: 30px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    height: 40px;
+    width: 150px;
+  }
+}

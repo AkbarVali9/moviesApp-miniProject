@@ -1,0 +1,24 @@
+.movie-item {
+  min-width: 84px;
+  width: 30%;
+  height: 180px;
+  margin: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .movie-item {
+    height: 280px;
+    width: 200px;
+  }
+}
+.movie-item-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: 1s;
+}
+.movie-item-image:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
